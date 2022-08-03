@@ -1573,7 +1573,6 @@
 
 <span class="sd">    Examples</span>
 <span class="sd">    --------</span>
-
 <span class="sd">    With :code:`ivy.Array` input:</span>
 
 <span class="sd">    &gt;&gt;&gt; x = ivy.array([1, 2, 3])</span>
@@ -2251,7 +2250,7 @@
 
 <div class="viewcode-block" id="set_queue_timeout"><a class="viewcode-back" href="../../../../functional/ivy/general/set_queue_timeout.html#ivy.functional.ivy.general.set_queue_timeout">[docs]</a><span class="k">def</span> <span class="nf">set_queue_timeout</span><span class="p">(</span><span class="n">timeout</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Set the global queue timeout value (in seconds) </span>
+<span class="sd">    Set the global queue timeout value (in seconds)</span>
 <span class="sd">    Default value without this function being called is 15 seconds.</span>
 
 <span class="sd">    Parameters</span>
@@ -2265,15 +2264,15 @@
 <span class="sd">    --------</span>
 <span class="sd">    &gt;&gt; x = ivy.queue_timeout()</span>
 <span class="sd">    &gt;&gt; print(x)</span>
-<span class="sd">    15.0   </span>
-<span class="sd">    </span>
+<span class="sd">    15.0</span>
+
 <span class="sd">    To set the timeout for example 30 seconds</span>
 
 <span class="sd">    &gt;&gt; ivy.set_queue_timeout(30)</span>
 <span class="sd">    &gt;&gt; y = ivy.queue_timeout()</span>
 <span class="sd">    &gt;&gt; print(y)</span>
-<span class="sd">    30 </span>
-<span class="sd">    </span>
+<span class="sd">    30</span>
+
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">global</span> <span class="n">TIMEOUT</span>
     <span class="n">TIMEOUT</span> <span class="o">=</span> <span class="n">timeout</span></div>
@@ -2291,12 +2290,12 @@
 
 <div class="viewcode-block" id="tmp_dir"><a class="viewcode-back" href="../../../../functional/ivy/general/tmp_dir.html#ivy.functional.ivy.general.tmp_dir">[docs]</a><span class="k">def</span> <span class="nf">tmp_dir</span><span class="p">():</span>
     <span class="sd">&quot;&quot;&quot;Get the path for directory that saves temporary files.</span>
-<span class="sd">    </span>
+
 <span class="sd">    Returns</span>
 <span class="sd">    -------</span>
 <span class="sd">    ret</span>
 <span class="sd">        The path of directory that saves temporary files.</span>
-<span class="sd">    </span>
+
 <span class="sd">    &quot;&quot;&quot;</span>
     <span class="k">return</span> <span class="n">TMP_DIR</span></div>
 

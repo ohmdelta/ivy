@@ -2875,20 +2875,21 @@
     <span class="k">pass</span></div>
 
 
-<div class="viewcode-block" id="has_nans"><a class="viewcode-back" href="../../../functional/ivy/general/has_nans/has_nans_array.html#ivy.array.array_methods.has_nans">[docs]</a><span class="k">def</span> <span class="nf">has_nans</span><span class="p">(</span>
-        <span class="bp">self</span><span class="p">:</span> <span class="n">ivy</span><span class="o">.</span><span class="n">Array</span><span class="p">,</span>
-        <span class="n">include_infs</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span>
-<span class="p">):</span>
+<div class="viewcode-block" id="has_nans"><a class="viewcode-back" href="../../../functional/ivy/general/has_nans/has_nans_array.html#ivy.array.array_methods.has_nans">[docs]</a><span class="k">def</span> <span class="nf">has_nans</span><span class="p">(</span><span class="bp">self</span><span class="p">:</span> <span class="n">ivy</span><span class="o">.</span><span class="n">Array</span><span class="p">,</span> <span class="n">include_infs</span><span class="p">:</span> <span class="nb">bool</span> <span class="o">=</span> <span class="kc">True</span><span class="p">):</span>
     <span class="sd">&quot;&quot;&quot;</span>
 <span class="sd">    ivy.Array instance method variant of ivy.has_nans. This method simply wraps the</span>
 <span class="sd">    function, and so the docstring for ivy.has_nans also applies to this method</span>
 <span class="sd">    with minimal changes.</span>
+
 <span class="sd">    Parameters</span>
 <span class="sd">    ----------</span>
+
 <span class="sd">    self</span>
 <span class="sd">        input array</span>
 <span class="sd">    include_infs</span>
-<span class="sd">        Whether to include ``+infinity`` and ``-infinity`` in the check. Default is True.</span>
+<span class="sd">        Whether to include ``+infinity`` and ``-infinity`` in the check.</span>
+<span class="sd">        Default is True.</span>
+
 <span class="sd">    Returns</span>
 <span class="sd">    -------</span>
 <span class="sd">    ret</span>
@@ -2950,6 +2951,7 @@
 <span class="sd">        optional int, the axis from which to gather from. Default is -1.</span>
 <span class="sd">    out</span>
 <span class="sd">        optional output array, for writing the result to.</span>
+
 <span class="sd">    Returns</span>
 <span class="sd">    -------</span>
 <span class="sd">    ret</span>
